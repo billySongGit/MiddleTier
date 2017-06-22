@@ -11,9 +11,6 @@ using Microsoft.Owin.Security;
 using Sabio.Web.Models;
 using Sabio.Web.Controllers.BaseControllers;
 
-// ********** FYI: System Generated File
-
-
 namespace Sabio.Web.Controllers
 {   
     public class AccountController : SiteController
@@ -22,6 +19,7 @@ namespace Sabio.Web.Controllers
         {
             return View();
         }
+        
         [Route("~/Account")]
         public ActionResult AccountWizardNg()
         {
